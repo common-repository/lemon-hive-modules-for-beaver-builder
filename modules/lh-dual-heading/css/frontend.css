@@ -1,0 +1,73 @@
+.lh-dual-heading {
+    padding: 40px;
+    border: 1px solid #E4E6F5;
+    position: relative;
+}
+
+.lh-dual-heading:before {
+    content: "";
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #F8931F;
+}
+
+.lh-dual-heading h1,
+.lh-dual-heading h2,
+.lh-dual-heading h3,
+.lh-dual-heading h4,
+.lh-dual-heading h5,
+.lh-dual-heading h6 {
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.lh-dual-heading h1 {
+    font-size: 40px;
+}
+
+.lh-dual-heading h2 {
+    font-size: 32px;
+}
+
+.lh-dual-heading h3 {
+    font-size: 26px;
+}
+
+.lh-dual-heading h4 {
+    font-size: 24px;
+}
+
+.lh-dual-heading h5 {
+    font-size: 20px;
+}
+
+.lh-dual-heading h6 {
+    font-size: 16px;
+}
+
+.lh-dual-heading .sub-heading {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #999999;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .lh-dual-heading h2 {
+        font-size: 38px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .lh-dual-heading h2 {
+        font-size: 28px;
+    }
+}

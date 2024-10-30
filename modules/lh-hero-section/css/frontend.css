@@ -1,0 +1,149 @@
+.lh-hero-section-slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.lh-hero-item-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #F8931F;
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.lh-hero-item-bg:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(40, 56, 73, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.lh-hero-content {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-right: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.lh-hero-content h1,
+.lh-hero-content p {
+    color: #fff;
+}
+
+.lh-hero-content .lh-hero-title h1 {
+    margin-top: 0;
+    font-size: 64px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.lh-hero-content p {
+    margin-bottom: 0;
+}
+
+.lh-hero-content-bottom a.lh-hero-btn {
+    background-color: #F8931F;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.lh-hero-content-bottom a.lh-hero-btn:hover {
+    background-color: #ffffff;
+    color: #304254;
+}
+
+.swiper-initialized .swiper-slide.lh-hero-item:not(.swiper-slide-visible.swiper-slide-active) {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.lh-hero-content-bottom {
+    margin-top: 50px;
+}
+
+.lh-hero-section-slider .swiper-horizontal>.swiper-pagination-bullets,
+.lh-hero-section-slider .swiper-pagination-bullets.swiper-pagination-horizontal,
+.lh-hero-section-slider .swiper-pagination-custom,
+.swiper-pagination-fraction {
+    left: auto;
+    right: 5%;
+    width: auto;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
+
+.lh-hero-section-slider .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.lh-hero-section-slider .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 5px auto;
+    display: block;
+}
+
+.lh-hero-section-slider .swiper-pagination-bullet {
+    background: #ffffff;
+    width: 10px;
+    height: 10px;
+    opacity: 0.25;
+}
+
+.lh-hero-section-slider .swiper-pagination-bullet-active {
+    background: #ffffff;
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+}
+
+@media all and (min-width: 992px) and (max-width: 1099px) {
+    .lh-hero-content .lh-hero-title h1 {
+        font-size: 50px;
+    }
+    .lh-hero-content {
+        padding-top: 140px;
+        padding-bottom: 140px;
+        padding-right: 40px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .lh-hero-content .lh-hero-title h1 {
+        font-size: 40px;
+    }
+    .lh-hero-content {
+        padding-top: 140px;
+        padding-bottom: 140px;
+        padding-right: 40px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .lh-hero-content .lh-hero-title h1 {
+        font-size: 32px;
+    }
+    .lh-hero-content {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 0px;
+    }
+    .lh-hero-item-bg:before {
+        width: 100%;
+    }
+}

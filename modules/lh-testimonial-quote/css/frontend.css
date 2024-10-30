@@ -1,0 +1,113 @@
+#lh-testimonial-slider {
+    padding: 25px 0;
+}
+
+.lh-testimonial-item .lh-testimonial-content {
+    padding: 15px 15px 15px 50px;
+    margin-bottom: 0;
+    background: #fff;
+}
+
+.lh-testimonial-content .lh-testimonial-icon i {
+    font-size: 16px;
+    color: #F8BB02;
+}
+
+.lh-testimonial-content .lh-testimonial-icon {
+    margin-bottom: 10px;
+}
+
+.lh-testimonial-item .testimonial-description {
+    color: #304254;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.testimonial-meta .testimonial-meta-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(82, 82, 82);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.testimonial-meta .testimonial-meta-post {
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgb(248, 147, 31);
+    text-transform: capitalize;
+}
+
+.lh-testimonial-quotes .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 3px 0;
+    list-style-type: none;
+    align-items: center;
+}
+
+.lh-testimonial-quotes .slick-dots li {
+    margin: 0 5px;
+}
+
+.lh-testimonial-quotes button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 1px solid #F8931F;
+    border-radius: 50% !important;
+    background-color: #f39c12;
+    text-indent: -9999px;
+    opacity: 0.25;
+}
+
+.lh-testimonial-quotes li.slick-active button {
+    background-color: #F8931F;
+    border: 1px solid #F8931F;
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+}
+
+.lh-testimonial-quotes .slick-arrow {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.lh-testimonial-quotes .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.lh-testimonial-quotes .prev-arrow {
+    left: -20px;
+
+}
+
+.lh-testimonial-quotes .next-arrow {
+    right: -20px;
+}
+
+.customer-meta {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.customer-photo img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.customer-photo {
+    margin-right: 14px;
+}
